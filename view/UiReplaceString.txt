@@ -1,0 +1,5 @@
+^        (self.)*\w+\.setObjectName\("\w+"\)$\n
+
+
+_translate\("MainWindow", ("[\S\s]+")\)
+$1
